@@ -1,0 +1,25 @@
+{
+    "name": "Emakefun Five Line Tracker",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts",
+        "_locales/zh/Emakefun Five Line Tracker-jsdoc-strings.json",
+        "_locales/zh/Emakefun Five Line Tracker-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}

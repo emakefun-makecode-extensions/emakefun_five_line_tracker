@@ -1,0 +1,11 @@
+{
+  "emakefun.FiveLineTracker.analogValue": "读取传感器的模拟值\n\n@return 传感器的模拟值",
+  "emakefun.FiveLineTracker.analogValue|param|index": "传感器索引，0 ~ 4",
+  "emakefun.FiveLineTracker.digitalValue": "读取传感器的数字值\n\n@return 传感器的数字值",
+  "emakefun.FiveLineTracker.digitalValue|param|index": "传感器索引，0 ~ 4",
+  "emakefun.FiveLineTracker.sensitivity": "获取灵敏度\n@return 灵敏度数值",
+  "emakefun.FiveLineTracker.setSensitivity": "设置灵敏度",
+  "emakefun.FiveLineTracker.setSensitivity|param|sensitivity": "灵敏度数值，范围 0 ~ 1023",
+  "emakefun.createFiveLineTracker": "创建一个五路寻迹模块实例",
+  "emakefun.createFiveLineTracker|param|i2c_address": "五路寻迹模块的 I2C 地址，默认为 0x50"
+}
