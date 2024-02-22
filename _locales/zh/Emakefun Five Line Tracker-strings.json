@@ -1,6 +1,6 @@
 {
-  "emakefun.FiveLineTracker.analogValue|block": "$this 读取传感器$index的模拟值",
-  "emakefun.FiveLineTracker.digitalValue|block": "$this 读取传感器$index的数字值",
+  "emakefun.FiveLineTracker.analogValue|block": "$this 读取传感器探头$index号的模拟值",
+  "emakefun.FiveLineTracker.digitalValue|block": "$this 读取传感器探头$index号的数字值",
   "emakefun.FiveLineTracker.sensitivity|block": "$this 获取灵敏度",
   "emakefun.FiveLineTracker.setSensitivity|block": "$this 将灵敏度设置为 $sensitivity",
   "emakefun.createFiveLineTracker|block": "创建五路寻迹模块实例, I2C地址为 $i2c_address",

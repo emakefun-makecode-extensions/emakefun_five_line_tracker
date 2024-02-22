@@ -8,6 +8,7 @@ namespace emakefun {
   //% subcategory="FiveLineTracker"
   //% blockSetVariable=five_line_tracker
   //% i2c_address.defl=0x50
+  //% weight=100
   export function createFiveLineTracker(i2c_address: number = 0x50): FiveLineTracker {
     return new FiveLineTracker(i2c_address);
   }
@@ -32,6 +33,7 @@ namespace emakefun {
     //% this.defl=five_line_tracker
     //% sensitivity.min=0
     //% sensitivity.max=1023
+    //% weight=99
     setSensitivity(sensitivity: number) {
       pins.i2cWriteBuffer(this.i2c_address_, Buffer.pack('<BH', [0x00, sensitivity]));
     }
